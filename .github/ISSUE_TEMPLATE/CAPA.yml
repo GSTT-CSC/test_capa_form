@@ -20,6 +20,14 @@ body:
         - Corrective action
         - Preventative action
 
+  - type: input
+    id: datix
+    attributes:
+      label: Datix ID
+      description: If this CAPA has an associated datix report, please enter the datix ID here.
+    validations:
+      required: false
+
   - type: textarea
     id: description
     attributes:
